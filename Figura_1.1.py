@@ -20,7 +20,7 @@ def draw_rotated_square(t, angle, lado):
     for i in range(4):
         t.forward(lado)
         t.left(90)
-
+""""
     t.left(90)
     t.forward(60)#abajo alto
     t.right(90)
@@ -54,7 +54,7 @@ def draw_rotated_square(t, angle, lado):
 
     t.left(180)
     t.forward(lado)
- 
+ """
   
 
     
@@ -62,7 +62,7 @@ def draw_rotated_square(t, angle, lado):
 #parametros
 lado = 200 #estatico si lo mueve la caga
 incremento_angulo = 36
-cantidad_figuras = 5
+cantidad_figuras = 6
 
 # Dibujar figura
 for i in range(cantidad_figuras):
