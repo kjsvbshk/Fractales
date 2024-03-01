@@ -1,27 +1,43 @@
-import turtle
-turtle.pensize(2)
-turtle.speed(0)
-def interna():
-    turtle.penup()
-    turtle.goto(-100,0)
-    turtle.pendown()
+from turtle import*
+speed(0)
+pensize(2)
 
-    for i in range(12):
-        turtle.forward(350)
-        turtle.right(150)
-        print("Coordenadas: ",turtle.position())
-def externa(angle):
-    turtle.penup()
-    turtle.goto(-75,-10)
-    turtle.pendown()
-    turtle.setheading(angle)
-    for i in range (3):
-        turtle.forward(300)
-        turtle.left(120)
-        turtle.forward(200)
-        turtle.left(120)
+for i in range(12):
+    forward(375)
+    right(150)   
+forward(197.5)
+right(30.5)
+forward(170)
+right(120)
+forward(235)
+right(119.5)
+forward(303)
+right(119.5)
+forward(235)
+right(120.5)
+forward(300)
+right(120)
+forward(230)
+right(120)
+forward(130)
 
-#interna()
-   
-externa(0)
-turtle.done()
+
+right(180)
+forward(9)
+left(60.7)
+forward(15)
+
+forward(170)
+left(120)
+forward(235)
+left(119.5)
+forward(303)
+left(119.5)
+forward(235)
+left(120.5)
+forward(300)
+left(120)
+forward(230)
+left(120)
+forward(130)
+mainloop()
